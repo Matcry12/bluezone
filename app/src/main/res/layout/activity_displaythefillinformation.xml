@@ -1,0 +1,132 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <data>
+    <variable
+        name="hide_profie"
+        type="String" />
+  </data>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:textSize="30sp"
+        android:layout_marginLeft="37dp"
+        android:textColor="@color/black"
+      android:text="TỜ KHAI BÁO CỦA BẠN"/>
+
+    <TextView
+        android:id="@+id/lichtrinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="lịch trình di chuyển trong 24h"/>
+    <TextView
+        android:id="@+id/lichtrinh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:id="@+id/hoten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Họ tên"/>
+    <TextView
+        android:id="@+id/hoten1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:id="@+id/namsinh"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Năm sinh"/>
+    <TextView
+        android:id="@+id/namsinh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:id="@+id/gioitinh"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        android:text="Giới tính"/>
+    <TextView
+        android:id="@+id/gioitinh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:id="@+id/quoctinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Quốc Tịch"/>
+    <TextView
+        android:id="@+id/quoctinh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:id="@+id/sohochieu_giaythonghanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="ố hộ chiếu hoặc giấy thông hành hợp pháp khác"/>
+    <TextView
+        android:id="@+id/sohochieu_giaythonghanh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:id="@+id/tiepxuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="có tiếp xúc vs người F1, F2, F3 không"/>
+    <TextView
+        android:id="@+id/tiepxuc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        />
+    <Button
+        android:id="@+id/gotothesecret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:text="nút bí mật (có thể bấm vào được)"
+        android:layout_marginLeft="30dp"
+        />
+    <Button
+        android:id="@+id/fastback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:text="quay lai"/>
+
+
+
+  </LinearLayout>
+</layout>

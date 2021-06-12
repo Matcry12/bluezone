@@ -1,0 +1,156 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="profile"
+            type="String" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tờ Khai Báo Y Tế Đối Với Mọi Người"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+
+            android:layout_marginTop="30dp"
+            android:textColor="#FF0000"
+            android:text="ĐÂY LÀ TÀI LIỆU QUAN TRỌNG, THÔNG TIN CỦA ANH/CHỊ"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FF0000"
+            android:text="SẼ GIÚP CƠ QUAN Y TẾ LIÊN LẠC KHI CẦN THIẾT ĐỂ "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#FF0000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:text="PHÒNG CHỐNG DỊCH BỆNH TRUYỀN NHIỄM."/>
+        <TextView
+            android:id="@+id/lichtrinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="lịch trình di chuyển trogn 24h: (*)"/>
+        <EditText
+            android:id="@+id/khai_bao_cua_khau"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+
+            android:textSize="15sp"
+            android:text="Họ tên (ghi chữ IN HOA): (*)"/>
+        <EditText
+            android:id="@+id/hoten"
+            android:inputType="text"
+            android:layout_width="match_parent"
+
+            android:layout_height="40dp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+
+            android:textSize="15sp"
+            android:text="Năm sinh: (*)"/>
+        <EditText
+            android:id="@+id/namsinh"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="Giới tính: (*)"/>
+        <EditText
+            android:id="@+id/gioitinh"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="Quốc tịch: (*)"/>
+
+        <EditText
+         android:id="@+id/quoctinh"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+
+            android:textSize="15sp"
+            android:text="Số hộ chiếu hoặc giấy thông hành hợp pháp khác: (*)"/>
+        <EditText
+            android:id="@+id/sohochieu_giaythonghanh"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="15sp"
+            android:textColor="@color/black"
+
+            android:text="có tiếp xúc vs người F1, F2, F3 không: (*)"/>
+        <EditText
+            android:id="@+id/tiepxuc"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+
+
+        <Button
+            android:id="@+id/khai_bao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+
+            android:text="Khai báo" />
+
+    </LinearLayout>
+</layout>
