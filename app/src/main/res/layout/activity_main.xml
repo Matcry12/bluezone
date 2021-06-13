@@ -18,7 +18,7 @@
             android:layout_marginTop="20dp"
             android:textSize="25sp"
             android:textStyle="bold|italic"
-            android:textColor="@color/black"
+            android:textColor="#0066FF"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -52,10 +52,11 @@
             android:layout_marginTop="30dp"
             android:textSize="15sp"
             android:textColor="@color/black"
-            android:text="lịch trình di chuyển trogn 24h: (*)"/>
+            android:text="lịch trình di chuyển trong 24h: (*)"/>
         <EditText
             android:id="@+id/khai_bao_cua_khau"
             android:inputType="text"
+
             android:layout_width="match_parent"
             android:layout_height="40dp"
             />
@@ -69,7 +70,7 @@
             android:text="Họ tên (ghi chữ IN HOA): (*)"/>
         <EditText
             android:id="@+id/hoten"
-            android:inputType="text"
+            android:inputType="textPersonName"
             android:layout_width="match_parent"
 
             android:layout_height="40dp"/>
@@ -83,7 +84,7 @@
             android:text="Năm sinh: (*)"/>
         <EditText
             android:id="@+id/namsinh"
-            android:inputType="text"
+            android:inputType="date"
             android:layout_width="match_parent"
             android:layout_height="40dp"/>
         <TextView
@@ -151,6 +152,10 @@
             android:layout_marginLeft="140dp"
 
             android:text="Khai báo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-470dp"/>
 
     </LinearLayout>
 </layout>

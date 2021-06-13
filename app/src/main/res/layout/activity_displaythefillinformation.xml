@@ -12,31 +12,48 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-      android:textSize="30sp"
+        android:textSize="30sp"
         android:layout_marginLeft="37dp"
         android:textColor="@color/black"
-      android:text="TỜ KHAI BÁO CỦA BẠN"/>
+        android:text="TỜ KHAI BÁO CỦA BẠN"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:background="#507AC3"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-377dp"
+        >
+
+
+
 
     <TextView
         android:id="@+id/lichtrinh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
         android:textColor="@color/black"
+        android:textStyle="bold"
         android:text="lịch trình di chuyển trong 24h"/>
     <TextView
         android:id="@+id/lichtrinh1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="17sp"
+
         />
     <TextView
         android:id="@+id/hoten"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textSize="18sp"
         android:textColor="@color/black"
         android:text="Họ tên"/>
     <TextView
@@ -50,7 +67,8 @@
         android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="18sp"
+        android:textStyle="bold"
         android:text="Năm sinh"/>
     <TextView
         android:id="@+id/namsinh1"
@@ -63,8 +81,8 @@
         android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textSize="18sp"
         android:text="Giới tính"/>
     <TextView
         android:id="@+id/gioitinh1"
@@ -76,8 +94,8 @@
         android:id="@+id/quoctinh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textSize="18sp"
         android:textColor="@color/black"
         android:text="Quốc Tịch"/>
     <TextView
@@ -90,10 +108,10 @@
         android:id="@+id/sohochieu_giaythonghanh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:textStyle="bold"
         android:textColor="@color/black"
         android:textSize="18sp"
-        android:text="ố hộ chiếu hoặc giấy thông hành hợp pháp khác"/>
+        android:text="Số hộ chiếu hoặc giấy thông hành hợp pháp khác"/>
     <TextView
         android:id="@+id/sohochieu_giaythonghanh1"
         android:layout_width="wrap_content"
@@ -106,13 +124,15 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:textSize="18sp"
-        android:text="có tiếp xúc vs người F1, F2, F3 không"/>
+        android:textStyle="bold"
+        android:text="Có tiếp xúc vs người F1, F2, F3 không"/>
     <TextView
         android:id="@+id/tiepxuc1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="17sp"
         />
+    </LinearLayout>
     <Button
         android:id="@+id/gotothesecret"
         android:layout_width="wrap_content"
@@ -124,7 +144,10 @@
         android:id="@+id/fastback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-      android:text="quay lai"/>
+      android:backgroundTint="#0254F4"
+
+      android:text="Làm lại Tờ khai báo"/>
+
 
 
 

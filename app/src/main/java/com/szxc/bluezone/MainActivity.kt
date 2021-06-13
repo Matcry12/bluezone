@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
             val dulieunhap7= tiepxuc.text.toString()
             intent.putExtra("dulieu7", dulieunhap7)
 
+
             startActivity(intent)
         }
 
