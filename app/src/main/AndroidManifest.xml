@@ -11,7 +11,7 @@
         android:theme="@style/Theme.Bluezone">
         <activity android:name=".Thesecret"></activity>
         <activity android:name=".displaythefillinformation"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".Khai_bao_y_te">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

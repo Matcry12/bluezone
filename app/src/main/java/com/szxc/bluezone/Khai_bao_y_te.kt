@@ -8,7 +8,7 @@ import android.widget.MultiAutoCompleteTextView
 import androidx.databinding.DataBindingUtil
 import com.szxc.bluezone.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class Khai_bao_y_te : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding: ActivityMainBinding = DataBindingUtil.setContentView(

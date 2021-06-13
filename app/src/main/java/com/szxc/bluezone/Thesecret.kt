@@ -11,7 +11,7 @@ class Thesecret : AppCompatActivity() {
         setContentView(R.layout.activity_thesecret)
         val button = findViewById<Button>(R.id.back)
         button.setOnClickListener() {
-            val intent: Intent = Intent(this, MainActivity::class.java)
+            val intent: Intent = Intent(this, Khai_bao_y_te::class.java)
             startActivity(intent)
 
         }

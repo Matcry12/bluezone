@@ -5,9 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
-import android.widget.Toast
-import androidx.databinding.DataBindingUtil
-import com.szxc.bluezone.databinding.ActivityMainBinding
 
 class displaythefillinformation : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -70,7 +67,7 @@ class displaythefillinformation : AppCompatActivity() {
 
                 val back = findViewById<Button>(R.id.fastback)
                 back.setOnClickListener() {
-                    val intent: Intent = Intent(this, MainActivity::class.java)
+                    val intent: Intent = Intent(this, Khai_bao_y_te::class.java)
                     startActivity(intent)
                     finish()
 
