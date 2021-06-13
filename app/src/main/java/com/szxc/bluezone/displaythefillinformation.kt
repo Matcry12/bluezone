@@ -52,10 +52,7 @@ class displaythefillinformation : AppCompatActivity() {
         sohochieugiaythonghanh.text = dulieunhan6
 
         tiepxuc.text = dulieunhan7
-        if (dulieunhan1 != null) {
-            if (dulieunhan1.contains(" ")){
-                lichtrinh.text = "bạn ko điền"
-            }
+
 
 
                 var go = findViewById<Button>(R.id.gotothesecret)
@@ -76,4 +73,4 @@ class displaythefillinformation : AppCompatActivity() {
             }
         }
 
-    }
+
