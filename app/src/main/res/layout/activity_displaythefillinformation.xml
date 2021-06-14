@@ -42,11 +42,11 @@
         android:textStyle="bold"
         android:text="lịch trình di chuyển trong 24h"/>
     <TextView
+
         android:id="@+id/lichtrinh1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="17sp"
-
         />
     <TextView
         android:id="@+id/hoten"
@@ -99,7 +99,7 @@
         android:textColor="@color/black"
         android:text="Quốc Tịch"/>
     <TextView
-        android:id="@+id/quoctinh1"
+        android:id="@+id/quoctich1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="17sp"
